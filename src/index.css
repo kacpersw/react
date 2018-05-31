@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.yellow-tr{
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.btn-remove{
+  width: 250px !important;
+}
+
+.half-table{
+  width: 50%;
+}
+
+.quarter-table{
+  width: 25%;
+}
+
+.full-width{
+  width: 25%;
+  font-size: 1.5rem;
+  float: right;
+}
+
+.border-null{
+  border-bottom: 0 !important;
+  border-left: 0;
+  border-right: 0;
+}
